@@ -143,7 +143,7 @@ urlpatterns = [
 
 ### Including other urls.py files
 
-- It's best practice to create `urls.py` files for each of your applciations
+- It's best practice to create `urls.py` files for each of your applications
 - You need to include those in the root URLconf of your project
 - Make sure you remove the `$` from the pattern when using include
 

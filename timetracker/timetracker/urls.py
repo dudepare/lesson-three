@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.http import HttpResponse
+from entries import views
 
 
 def hello_world(request):
@@ -29,5 +30,8 @@ def hello_world(request):
 
 urlpatterns = [
     url(r'^$', hello_world),
+    url(r'^clients/', views.clients, name='clients'),
+    url(r'^projects/', views.projects, name='projects'),
+    url(r'^client-summary/', views.clientsummary, name='client-summary'),
     url(r'^admin/', include(admin.site.urls)),
 ]

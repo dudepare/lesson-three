@@ -10,11 +10,11 @@ Check our RESOURCES.md for some links we think you'll find handy.
 
 ## Homework Checklist
 
-- [ ] Read up on regular expressions
-- [ ] [Fork this repository][gh-fork]
-- [ ] Clone the repo to your own machine
-- [ ] Use the virtualenv you created in previous lesson
-- [ ] Add urls for clients and projects
+- [x] Read up on regular expressions
+- [x] [Fork this repository][gh-fork]
+- [x] Clone the repo to your own machine
+- [x] Use the virtualenv you created in previous lesson
+- [x] Add urls for clients and projects
 - [ ] Update the templates to use `{% url %}`
 - [ ] Create views that list `Clients` and `Projects`
 - [ ] Use template inheritance to avoid having the same code in all of your templates
