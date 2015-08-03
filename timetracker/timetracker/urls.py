@@ -27,7 +27,6 @@ def hello_world(request):
         return HttpResponse('<form><input name="name"></form>')
 
 
-
 urlpatterns = [
     url(r'^$', hello_world),
     url(r'^clients/', views.clients, name='clients'),

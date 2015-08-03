@@ -15,10 +15,10 @@ Check our RESOURCES.md for some links we think you'll find handy.
 - [x] Clone the repo to your own machine
 - [x] Use the virtualenv you created in previous lesson
 - [x] Add urls for clients and projects
-- [ ] Update the templates to use `{% url %}`
-- [ ] Create views that list `Clients` and `Projects`
-- [ ] Use template inheritance to avoid having the same code in all of your templates
-- [ ] Bonus points: Create a client summary page that lists all of it's projects and time entries
+- [x] Update the templates to use `{% url %}`
+- [x] Create views that list `Clients` and `Projects`
+- [x] Use template inheritance to avoid having the same code in all of your templates
+- [x] Bonus points: Create a client summary page that lists all of it's projects and time entries
 
 When you've completed some or all of the homework please make a [Pull Request][gh-pr] against this repository. If you submit
 your work before Wednesday evening we'll give you feedback before the next class.

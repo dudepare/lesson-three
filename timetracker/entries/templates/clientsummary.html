@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% for k, v in object_list.items %}
+        <h2> {{ k }} </h2>
+        <ul>
+        {% if v %}
+            {% for e in v %}
+                    <li> {{ e.start }} | {{e.stop}} | {{e.project}} | {{e.description}} </li>
+            {% endfor %}
+        {% else %}
+            <li> no entries </li>
+        {% endif %}
+        </ul>
+    {% endfor %}
+{% endblock %}
